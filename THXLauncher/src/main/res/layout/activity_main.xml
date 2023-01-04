@@ -95,14 +95,14 @@
                 tools:ignore="HardcodedText,TouchTargetSizeCheck,UsingOnClickInXml" />
 
             <ImageButton
-                android:id="@+id/add_account"
+                android:id="@+id/account_add"
                 android:layout_width="55dp"
                 android:layout_height="match_parent"
                 android:background="#00FFFFFF"
-                android:onClick="add_account"
+                android:onClick="account_add"
                 app:srcCompat="@android:drawable/ic_menu_sort_by_size"
                 tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck,UsingOnClickInXml,ImageContrastCheck"
-                tools:srcCompat="@android:drawable/ic_menu_add" />
+                tools:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
         </LinearLayout>
 

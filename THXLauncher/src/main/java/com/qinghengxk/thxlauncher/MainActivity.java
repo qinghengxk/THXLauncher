@@ -1,5 +1,6 @@
 package com.qinghengxk.thxlauncher;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
@@ -16,10 +17,17 @@ public class MainActivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 
-    public void add_account(View view) {
+
+    @SuppressLint("InflateParams")
+    public void account_add(View view) {
+
+        View dialogView = getLayoutInflater().inflate(R.layout.account_add, null);
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("新建账户")
+                .setView(dialogView)
                 .create()
                 .show();
     }
+
 }
