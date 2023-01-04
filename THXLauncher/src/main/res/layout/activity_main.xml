@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thxl_background"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:background="#994052F6"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,UselessLeaf">
+
+        <Button
+            android:id="@+id/games"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#004C5CF1"
+            android:text="@string/game"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/download"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#004C5CF1"
+            android:text="@string/download"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#004C5CF1"
+            android:text="@string/setting"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#004C5CF1"
+            android:text="@string/about"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="#B3FFFFFF"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF4C5CF1"
+            android:text="@string/title"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            tools:ignore="InefficientWeight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/choose_account"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:text="@string/account"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,UsingOnClickInXml" />
+
+            <ImageButton
+                android:id="@+id/add_account"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:onClick="add_account"
+                app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck,UsingOnClickInXml,ImageContrastCheck"
+                tools:srcCompat="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="200dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/stroke"
+            android:text="@string/start"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,UselessLeaf"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

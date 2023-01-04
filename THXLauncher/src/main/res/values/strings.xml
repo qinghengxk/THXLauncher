@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">THXLauncher</string>
+    <string name="title"> THXL r1.0-pre</string>
+    <string name="start">启动游戏</string>
+    <string name="download">下载</string>
+    <string name="account">账户</string>
+    <string name="game">游戏</string>
+    <string name="about">关于</string>
+    
+    <string name="account_title">账户管理</string>
+    <string name="offline">离线账户</string>
+    <string name="microsoft">微软登录</string>
+    <string name="external">外置登录</string>
+    <string name="setting">设置</string>
+</resources>
