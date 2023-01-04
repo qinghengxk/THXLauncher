@@ -1,4 +1,4 @@
-现在是简体中文 | [switch English](/)
+现在是简体中文 | [switch English](https://github.com/qinghengxk/THXLauncher)
 
 # THXLauncher
 (由于某些浏览器翻译太拉了所以弄中文文档)
