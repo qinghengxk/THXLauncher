@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 rootProject.name = "THXLauncher"
 include ':THXLauncher'
 include ':THXLLibrary'
+include ':nativelib'
+include ':THXLlibrary'
+include ':THXLCore'
