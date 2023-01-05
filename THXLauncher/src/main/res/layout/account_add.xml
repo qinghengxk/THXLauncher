@@ -13,16 +13,16 @@
         tools:ignore="MissingConstraints">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/offline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#00FFFFFF"
             android:text="@string/offline"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/microsoft"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -31,7 +31,7 @@
             tools:ignore="ButtonStyle" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/external"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
