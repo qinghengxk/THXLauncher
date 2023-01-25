@@ -127,14 +127,14 @@
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/about"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:onClick="about"
                 android:background="#004C5CF1"
                 android:text="@string/about"
                 android:textColor="#FFFF"
                 android:textSize="20sp"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck,UsingOnClickInXml" />
 
         </LinearLayout>
 
