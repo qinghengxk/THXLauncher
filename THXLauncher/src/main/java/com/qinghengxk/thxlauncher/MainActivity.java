@@ -19,10 +19,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //右侧菜单即功能
-        //跳转关于
+    //跳转游戏和下载
+
+
+    public void games(View view) {
+        startActivity(new Intent(this, activity_games.class));
+    }
+    //跳转关于
     public void about(View view) {
         startActivity(new Intent(this, about_info_activity.class));
     }
+
 
     @SuppressLint("InflateParams")
     public void account_add(View view) {

@@ -14,13 +14,11 @@
         android:baselineAligned="false">
 
         <LinearLayout
-            android:layout_width="180dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="18"
             android:background="#B3FFFFFF"
-            android:orientation="vertical"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView"
@@ -39,11 +37,11 @@
 
                 <Button
                     android:id="@+id/choose_account"
-                    android:layout_width="125dp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:text="@string/account"
-                    tools:ignore="HardcodedText,TouchTargetSizeCheck,UsingOnClickInXml" />
+                    android:text="@string/account" />
 
                 <ImageButton
                     android:id="@+id/account_add"
@@ -60,7 +58,8 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                tools:ignore="NestedWeights">
 
             </View>
 
@@ -79,32 +78,29 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="32"
             android:background="#66FFFFFF">
 
         </TextView>
 
         <LinearLayout
             android:id="@+id/linearLayout2"
-            android:layout_width="140dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="14"
             android:background="#994052F6"
             android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints,UselessLeaf">
 
             <Button
-                android:id="@+id/games"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="#004C5CF1"
+                android:onClick="games"
                 android:text="@string/game"
                 android:textColor="#FFFF"
                 android:textSize="20sp"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
                 android:id="@+id/download"
@@ -129,8 +125,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="about"
                 android:background="#004C5CF1"
+                android:onClick="about"
                 android:text="@string/about"
                 android:textColor="#FFFF"
                 android:textSize="20sp"
