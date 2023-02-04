@@ -11,10 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/THXLCore" />
-            <option value="$PROJECT_DIR$/THXLLibrary" />
             <option value="$PROJECT_DIR$/THXLauncher" />
-            <option value="$PROJECT_DIR$/THXLlibrary" />
+            <option value="$PROJECT_DIR$/boat" />
             <option value="$PROJECT_DIR$/nativelib" />
+            <option value="$PROJECT_DIR$/sample" />
           </set>
         </option>
       </GradleProjectSettings>

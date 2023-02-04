@@ -18,19 +18,28 @@ public class MainActivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 
-    //右侧菜单即功能
-    //跳转游戏和下载
-
-
+    //右侧菜单即功能awa
+    //跳转游戏
     public void games(View view) {
-        startActivity(new Intent(this, activity_games.class));
+        startActivity(new Intent(this, GamesActivity.class));
+    }
+    //跳转下载
+    public void download(View view) {
+        startActivity(new Intent(this, DownloadActivity.class));
+    }
+    //跳转设置
+    public void setting(View view) {
+        startActivity(new Intent(this, SetActivity.class));
     }
     //跳转关于
     public void about(View view) {
-        startActivity(new Intent(this, about_info_activity.class));
+        startActivity(new Intent(this, AboutActivity.class));
     }
 
 
+
+    //左侧账户添加和查看/删除
+    //添加
     @SuppressLint("InflateParams")
     public void account_add(View view) {
 
@@ -42,5 +51,16 @@ public class MainActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
+    //查看和删除
+    @SuppressLint("InflateParams")
+    public void choose_account(View view) {
 
+        View dialogView =  getLayoutInflater().inflate(R.layout.choose_account, null);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("选择账户/删除")
+                .setView(dialogView)
+                .create()
+                .show();
+    }
 }

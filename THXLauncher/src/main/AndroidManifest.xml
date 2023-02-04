@@ -18,14 +18,28 @@
         android:theme="@style/Theme.THXLauncher"
         tools:targetApi="31">
         <activity
-            android:name=".activity_games"
+            android:name=".SetActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".about_info_activity"
+            android:name=".DownloadActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GamesActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AboutActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

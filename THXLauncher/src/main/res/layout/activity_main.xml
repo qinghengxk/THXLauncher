@@ -103,24 +103,24 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <Button
-                android:id="@+id/download"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="#004C5CF1"
+                android:onClick="download"
                 android:text="@string/download"
                 android:textColor="#FFFF"
                 android:textSize="20sp"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
-                android:id="@+id/setting"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="#004C5CF1"
+                android:onClick="setting"
                 android:text="@string/setting"
                 android:textColor="#FFFF"
                 android:textSize="20sp"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
                 android:layout_width="match_parent"

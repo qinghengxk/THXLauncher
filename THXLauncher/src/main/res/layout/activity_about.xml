@@ -7,6 +7,14 @@
     android:orientation="vertical">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF4C5CF1"
+        android:text="@string/AboutLauncher"
+        android:textSize="25sp"
+        android:textColor="#FFFFFFFF"/>
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,10 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#80FFFFFF"
-        android:text="@string/downloadUrl"
-        tools:ignore="MissingConstraints,TextContrastCheck"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="78dp">
+        android:text="@string/downloadUrl" >
 
     </TextView>
 
